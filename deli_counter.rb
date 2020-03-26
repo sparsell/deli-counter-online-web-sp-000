@@ -19,8 +19,8 @@ def take_a_number(katz_deli, string)
       puts "Welcome, #{string}. You are number 1 in line."
     else
       katz_deli.length != 0
-      katz_deli.push "#{string}"
-      puts "Welcome, #{string}. You are number #{katz_deli.length +1} in line."
+      katz_deli.push ("#{string}")
+      puts "Welcome, #{string}. You are number #{katz_deli.length + 1} in line."
 end
 end
 
