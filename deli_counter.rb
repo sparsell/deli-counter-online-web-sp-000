@@ -1,4 +1,5 @@
-katz_deli = ["Logan", "Avi", "Spencer", "Harry", "Charles", "Amber", "Scarlett"]
+katz_deli = []
+#katz_deli = ["Logan", "Avi", "Spencer", "Harry", "Charles", "Amber", "Scarlett"]
 
 def line(katz_deli)
      if katz_deli.length == 0
