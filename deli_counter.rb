@@ -13,8 +13,8 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, "")
-  katz_deli << ""
-puts #new_customer name and position in line
+  #katz_deli << ""
+  puts #new_customer name and position in line
 end
 
 
