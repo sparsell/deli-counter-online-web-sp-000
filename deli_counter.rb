@@ -20,7 +20,7 @@ def take_a_number(katz_deli, string)
     else
       katz_deli.length != 0
       katz_deli.push ("#{string}")
-      puts "Welcome, #{string}. You are number #{katz_deli.size + 1} in line."
+      puts "Welcome, #{string}. You are number #{katz_deli.length} in line."
 end
 end
 
