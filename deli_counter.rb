@@ -8,6 +8,6 @@ def line(katz_deli)
       katz_deli.each_with_index do |customer, index|
       katz_deli_customers.push ("#{index + 1}. #{customer}")
       end
-      puts "The line is currently:" + katz_deli_customers.to_s
+      puts "The line is currently:" + katz_deli_customers.to_s.join(" ")
     end
 end
