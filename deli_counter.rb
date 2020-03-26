@@ -11,3 +11,8 @@ def line(katz_deli)
       puts "The line is currently: " + "#{katz_deli_customers.join(" ")}"
     end
 end
+
+def take_a_number
+  
+  
+end
