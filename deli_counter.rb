@@ -11,6 +11,6 @@ def line(katz_deli)
       katz_deli_customers.to_s
       katz_deli_customers.join(" ")
       puts "The line is currently:" + katz_deli_customers
-      
+
     end
 end
