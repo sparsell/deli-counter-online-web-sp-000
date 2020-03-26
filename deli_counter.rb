@@ -14,8 +14,13 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, string)
-  #katz_deli << ""
+    if katz_deli.length == 0
+      katz_deli << "#{string}"
+    else
+      katz_deli.length != 0
+      katz_deli.push "#{string}"
   #puts #new_customer name and position in line
+end
 end
 
 
