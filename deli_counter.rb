@@ -6,11 +6,8 @@ def line(katz_deli)
      else
        katz_deli_customers = []
       katz_deli.each_with_index do |customer, index|
-      katz_deli_customers.push ("#{index + 1}. #{customer}")
+      katz_deli_customers << ("#{index + 1}. #{customer}")
       end
-      katz_deli_customers.to_s
-      katz_deli_customers.join(" ")
-      puts "The line is currently:" + katz_deli_customers
-
+      return "The line is currently: " + "#{katz_deli_customers.join(" ")}"
     end
 end
