@@ -15,7 +15,7 @@ end
 
 def take_a_number(katz_deli, string)
     if katz_deli.length == 0
-      katz_deli << "#{string}"
+      katz_deli.unshift "#{string}"
     else
       katz_deli.length != 0
       katz_deli.push "#{string}"
